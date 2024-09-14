@@ -11,7 +11,7 @@ public class RainEffectToggle : MonoBehaviour
     void Start()
     {
         // Find the child GameObject named "rain"
-        rainChild = transform.Find("rain").gameObject;
+        rainChild = transform.Find("Rain").gameObject;
 
         // Initialize the rain's state
         UpdateRainState();
